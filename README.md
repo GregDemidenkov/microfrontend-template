@@ -1,1 +1,1 @@
-# Microfrontend-temlate
+# Microfrontend-template

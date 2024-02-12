@@ -1,0 +1,16 @@
+{
+  "name": "microfrontend-template",
+  "description": "microfrontend template repository",
+  "version": "1.0.0",
+  "scripts": {
+    "startAll": "concurrently \"npm run --prefix ./services/host start\" \"npm run --prefix ./services/service1 start\" \"npm run --prefix ./services/service2 start\""
+  },
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

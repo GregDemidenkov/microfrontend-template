@@ -1,0 +1,1 @@
+export {LazyService1 as Service1} from './Service1.lazy'
